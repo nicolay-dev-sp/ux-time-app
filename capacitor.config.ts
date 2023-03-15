@@ -4,7 +4,8 @@ const config: CapacitorConfig = {
   appId: 'miso.ux.timeapp',
   appName: 'UX Time App',
   webDir: 'www',
-  bundledWebRuntime: false
+  // androidFullscreen: true,
+  bundledWebRuntime: false,
 };
 
 export default config;

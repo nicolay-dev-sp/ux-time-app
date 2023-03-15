@@ -1,0 +1,23 @@
+export enum Quotes {
+    "Absorbe lo útil, rechaza lo inútil, añade lo específicamente tuyo",
+    "La dulzura no hace el trabajo, a menos que seas una gallina poniendo huevos",
+    "La gente corriente sólo piensa en gastar el tiempo, la gente genial piensa en usarlo",
+    "Eficiencia es hacer mejor lo que ya se está haciendo",
+    "Suelen alcanzar el éxito quienes no saben que el fracaso es inevitable",
+    "Si no prestas la debida atención a lo que tiene tu atención, te quitará más atención de la que merece",
+    "No siempre hay que hacer más, sino centrarse en menos",
+    "El tiempo es el recurso más escaso y, a menos que se gestione, no se podrá gestionar nada más",
+    "El cínico dice: 'Un solo hombre no puede hacer nada'. Yo digo: 'Sólo un hombre puede hacer algo'",
+    "No es saber qué hacer, es hacer lo que sabes",
+    "El que se levanta tarde debe trotar todo el día",
+    "Las personas menos productivas suelen ser las más partidarias de celebrar reuniones",
+    "La vida es demasiado complicada para no ser ordenada",
+    "La acción es la clave fundamental de todo éxito",
+    "Céntrate en ser productivo en lugar de estar ocupado",
+    "Creo que la suerte es la preparación encontrándose con la oportunidad",
+    "Creo que si sigo trabajando en esto y lo deseo lo suficiente puedo conseguirlo. Se llama perseverancia",
+    "Hasta que no sepamos gestionar el tiempo, no podremos gestionar nada más",
+    "No confundas lo urgente con lo importante",
+    "Si quieres que un trabajo fácil te parezca muy difícil, sigue posponiéndolo",
+    "En una sociedad que juzga la autoestima en función de la productividad"
+}

@@ -5,6 +5,7 @@ import { SplashScreen } from '@capacitor/splash-screen'
   templateUrl: 'app.component.html',
   styleUrls: ['app.component.scss']
 })
+
 export class AppComponent {
   constructor() {
     this.initializeApp();

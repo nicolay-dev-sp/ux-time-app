@@ -1,7 +1,14 @@
 {
   "name": "UX Time App",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {
+      "assets": [
+        {
+          "src": "src/assets/fonts",
+          "target": "app/src/main/assets/fonts"
+        }
+      ]
+    }
   },
   "type": "angular"
 }
