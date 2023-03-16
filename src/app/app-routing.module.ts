@@ -3,6 +3,10 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
+    path: '',
+    loadChildren: () => import('./home-page/home-page-routing.module').then(m => m.HomePageRoutingModule)
+  },
+  {
     path: 'home',
     loadChildren: () => import('./home-page/home-page-routing.module').then(m => m.HomePageRoutingModule)
   },
