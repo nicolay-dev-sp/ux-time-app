@@ -1,0 +1,102 @@
+.cards-layout {
+    margin: 31px 10px 10px 10px;
+    overflow-y: scroll;
+}
+
+.card.disabled {
+    opacity: 0.5;
+}
+
+.routine-info {
+    display: flex;
+}
+
+.routine-options {
+    display: flex;
+    align-items: center;
+}
+
+.option-icons {
+    padding: 4px 3px;
+}
+
+.temps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.form-check {
+    display: flex;
+    margin-left: 8px;
+    max-width: 36px;
+    justify-content: flex-end;
+}
+
+.custom-header::after {
+    content: none;
+}
+
+.content {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 21px;
+}
+
+.card {
+    border-radius: 12px;
+    border: none;
+    background-color: #F8F8F8;
+    margin: 10px 0px;
+}
+
+.card-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #F8F8F8;
+    padding: 10px 7px;
+    border: none;
+    max-height: 50px;
+}
+
+.arrow-button {
+    border: none;
+}
+
+.btn-outline-dark:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-outline-dark.dropdown-toggle:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-outline-dark:hover {
+    color: #343a40;
+    background-color: inherit;
+    border-color: none;
+}
+
+.card-body {
+    padding: 14px 18px 16px 18px;
+}
+
+.accordion > .card:not(:last-of-type) {
+    border-radius: 12px;
+}
+
+.accordion > .card:not(:first-of-type) {
+    border-radius: 12px;
+}
+
+.accordion > .card > .card-header {
+    margin-bottom: 4px;
+    border-radius: 12px;
+}

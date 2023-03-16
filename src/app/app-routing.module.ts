@@ -3,8 +3,16 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'home',
     loadChildren: () => import('./home-page/home-page-routing.module').then(m => m.HomePageRoutingModule)
+  },
+  {
+    path: 'edit',
+    loadChildren: () => import('./edit/edit-routing.module').then(m => m.EditRoutingModule)
+  },
+  {
+    path: 'calendar',
+    loadChildren: () => import('./calendar/calendar-routing.module').then(m => m.CalendarRoutingModule)
   }
 ];
 @NgModule({

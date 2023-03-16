@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { StatusBar } from '@capacitor/status-bar';
 
 @Component({
@@ -15,10 +16,15 @@ export class HomePageComponent implements OnInit {
     await StatusBar.hide();
   };
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
     !this.isWeb ? this.hideStatusBar(): '';
+  }
+
+
+  moveToEdit() {
+    this.router.navigate(['edit']);
   }
 
 }

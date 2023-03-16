@@ -1,0 +1,6 @@
+{
+	"appId": "miso.ux.timeapp",
+	"appName": "UX Time App",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

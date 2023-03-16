@@ -1,3 +1,106 @@
-<p>
-  home-body works!
-</p>
+<div class="cards-layout content">
+  <ngb-accordion #a="ngbAccordion" activeIds="custom-panel-1">
+    <ngb-panel id="custom-panel-1">
+      <ng-template ngbPanelHeader let-opened="opened">
+        <div class="routine-info">
+          <button ngbPanelToggle class="btn btn-outline-dark arrow-button">
+            <ion-icon *ngIf="opened" name="chevron-down-outline"></ion-icon>
+            <ion-icon *ngIf="!opened" name="chevron-forward-outline"></ion-icon>
+          </button>
+          <span>Rutina A</span>
+        </div>
+        <div class="routine-options">
+          <ion-icon click class="option-icons" name="trash-outline"></ion-icon>
+          <ion-icon (click)="moveToEdit()" class="option-icons" name="create-outline"></ion-icon>
+          <ion-icon (click)="moveToCalendar()" class="option-icons" name="calendar-outline"></ion-icon>
+        </div>
+        <div class="form-check form-switch">
+          <input class="form-check form-switch form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+        </div>
+      </ng-template>
+      <ng-template ngbPanelContent>
+        <div class="temps">
+          <span>Temp1. </span>
+          <span>Temp2. </span>
+          <span>Temp3. </span>
+        </div>
+      </ng-template>
+    </ngb-panel>
+    <ngb-panel>
+      <ng-template ngbPanelHeader let-opened="opened">
+        <div class="routine-info">
+          <button ngbPanelToggle class="btn btn-outline-dark arrow-button">
+            <ion-icon *ngIf="opened" name="chevron-down-outline"></ion-icon>
+            <ion-icon *ngIf="!opened" name="chevron-forward-outline"></ion-icon>
+          </button>
+          <span>Rutina B</span>
+        </div>
+        <div class="routine-options">
+          <ion-icon class="option-icons" name="trash-outline"></ion-icon>
+          <ion-icon class="option-icons" name="create-outline"></ion-icon>
+          <ion-icon class="option-icons" name="calendar-outline"></ion-icon>
+        </div>
+        <div class="form-check form-switch">
+          <input class="form-check form-switch form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+        </div>
+      </ng-template>
+      <ng-template ngbPanelContent>
+        <div class="temps">
+          <span>Temp1. </span>
+          <span>Temp2. </span>
+        </div>
+      </ng-template>
+    </ngb-panel>
+    <ngb-panel>
+      <ng-template ngbPanelHeader let-opened="opened">
+        <div class="routine-info">
+          <button ngbPanelToggle class="btn btn-outline-dark arrow-button">
+            <ion-icon *ngIf="opened" name="chevron-down-outline"></ion-icon>
+            <ion-icon *ngIf="!opened" name="chevron-forward-outline"></ion-icon>
+          </button>
+          <span>Rutina C</span>
+        </div>
+        <div class="routine-options">
+          <ion-icon class="option-icons" name="trash-outline"></ion-icon>
+          <ion-icon class="option-icons" name="create-outline"></ion-icon>
+          <ion-icon class="option-icons" name="calendar-outline"></ion-icon>
+        </div>
+        <div class="form-check form-switch">
+          <input class="form-check form-switch form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+        </div>
+      </ng-template>
+      <ng-template ngbPanelContent>
+        <div class="temps">
+          <span>Temp1. </span>
+          <span>Temp2. </span>
+        </div>
+      </ng-template>
+    </ngb-panel>
+    <ngb-panel>
+      <ng-template ngbPanelHeader let-opened="opened">
+        <div class="routine-info">
+          <button ngbPanelToggle class="btn btn-outline-dark arrow-button">
+            <ion-icon *ngIf="opened" name="chevron-down-outline"></ion-icon>
+            <ion-icon *ngIf="!opened" name="chevron-forward-outline"></ion-icon>
+          </button>
+          <span>Rutina D</span>
+        </div>
+        <div class="routine-options">
+          <ion-icon class="option-icons" name="trash-outline"></ion-icon>
+          <ion-icon class="option-icons" name="create-outline"></ion-icon>
+          <ion-icon class="option-icons" name="calendar-outline"></ion-icon>
+        </div>
+        <div class="form-check form-switch">
+          <input class="form-check form-switch form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+        </div>
+      </ng-template>
+      <ng-template ngbPanelContent>
+        <div class="temps">
+          <span>Temp1. </span>
+          <span>Temp2. </span>
+          <span>Temp3. </span>
+        </div>
+      </ng-template>
+    </ngb-panel>
+  </ngb-accordion>
+</div>
